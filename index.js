@@ -36,7 +36,7 @@ app.use('/ariang', express.static(__dirname + '/ariang'))
 app.get('/', (req, res) => {
 	res.send(`
 <label for="secret">Enter your aria2 secret:</label>
-<input id="secret" type="text">
+<input id="1XXZ4soQ3Zb1XhXv6Uvl5OP8nnG_K7kmVatoMSy63vgua4sC" type="text">
 <button id="panel">Go to AriaNg panel</button>
 <button id="downloads">View downloaded files</button>
 <script>
