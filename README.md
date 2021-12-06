@@ -4,8 +4,8 @@
 
 ## Optionally sync downloaded file to your cloud drive with Rclone
 
-1. Setup Rclone by following offical instructions: https://rclone.org/docs/
-2. Find your `rclone.conf` file, it should look like this:
+1按照官方說明設置 Rclone： ://rclone.org/docs/ https 
+2找你的 rclone.conf文件，它應該是這樣的： 
 
 ```conf
 [DRIVENAME]
@@ -18,7 +18,7 @@ token = WHATEVER
 others entries...
 ```
 
-3. Find the drive you want to use, and copy its `type = ...` to  `... token = ...` section.
-4. Replace all linebreaks with `\n`
-5. Deploy with the button above, and paste that text in `RCLONE_CONFIG`
-6. Set `RCLONE_DESTINATION` to a path you want to store your downloaded files.
+3找到您要使用的驅動器，並將其複制 type = ...到 ... token = ...部分。 
+4將所有換行符替換為 \n
+5使用上面的按鈕進行部署，然後將該文本粘貼到 RCLONE_CONFIG
+6放 RCLONE_DESTINATION到要存儲下載文件的路徑。 
